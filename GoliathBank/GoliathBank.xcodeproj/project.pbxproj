@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E82D8095E1357F92B21EDC /* libPods-GoliathBank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB6877B3CB3B395A0E96B6 /* libPods-GoliathBank.a */; };
+		7F12546E209DCED700E8AE33 /* GoliathBankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F12546D209DCED700E8AE33 /* GoliathBankModel.swift */; };
+		7F125473209DE2C200E8AE33 /* GBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F125472209DE2C200E8AE33 /* GBTableViewController.swift */; };
+		7F125477209DE4A900E8AE33 /* GBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F125475209DE4A900E8AE33 /* GBTableViewCell.swift */; };
+		7F125478209DE4A900E8AE33 /* GBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F125476209DE4A900E8AE33 /* GBTableViewCell.xib */; };
+		7F12547A209DEF3800E8AE33 /* GoliathBankModelRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F125479209DEF3800E8AE33 /* GoliathBankModelRates.swift */; };
+		7F12547C209DF2F100E8AE33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F12547B209DF2F100E8AE33 /* DetailViewController.swift */; };
+		7F12547F209E041300E8AE33 /* GBDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F12547D209E041300E8AE33 /* GBDetailTableViewCell.swift */; };
+		7F125480209E041300E8AE33 /* GBDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F12547E209E041300E8AE33 /* GBDetailTableViewCell.xib */; };
+		7F60B24C209DC1E2004C908D /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60B24B209DC1E2004C908D /* NetworkConnection.swift */; };
+		7FE4B9E320A22CD200E2B1A3 /* GoliathBankProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4B9E220A22CD200E2B1A3 /* GoliathBankProtocols.swift */; };
+		7FE4B9E520A22CE600E2B1A3 /* GoliathBankRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4B9E420A22CE600E2B1A3 /* GoliathBankRouter.swift */; };
+		7FE4B9E720A22D5200E2B1A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4B9E620A22D5200E2B1A3 /* Constants.swift */; };
+		7FE4B9E920A2335500E2B1A3 /* GoliathBankPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4B9E820A2335500E2B1A3 /* GoliathBankPresenter.swift */; };
+		7FE4B9EB20A2475600E2B1A3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4B9EA20A2475600E2B1A3 /* Utils.swift */; };
+		7FFC8765209DBD3D009707AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC8764209DBD3D009707AA /* AppDelegate.swift */; };
+		7FFC8767209DBD3D009707AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC8766209DBD3D009707AA /* ViewController.swift */; };
+		7FFC876A209DBD3D009707AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC8768209DBD3D009707AA /* Main.storyboard */; };
+		7FFC876C209DBD3F009707AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC876B209DBD3F009707AA /* Assets.xcassets */; };
+		7FFC876F209DBD3F009707AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC876D209DBD3F009707AA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2806D9959847C63441E0073A /* Pods-GoliathBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathBank/Pods-GoliathBank.release.xcconfig"; sourceTree = "<group>"; };
+		7F12546D209DCED700E8AE33 /* GoliathBankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathBankModel.swift; sourceTree = "<group>"; };
+		7F125472209DE2C200E8AE33 /* GBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTableViewController.swift; sourceTree = "<group>"; };
+		7F125475209DE4A900E8AE33 /* GBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTableViewCell.swift; sourceTree = "<group>"; };
+		7F125476209DE4A900E8AE33 /* GBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GBTableViewCell.xib; sourceTree = "<group>"; };
+		7F125479209DEF3800E8AE33 /* GoliathBankModelRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathBankModelRates.swift; sourceTree = "<group>"; };
+		7F12547B209DF2F100E8AE33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7F12547D209E041300E8AE33 /* GBDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7F12547E209E041300E8AE33 /* GBDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GBDetailTableViewCell.xib; sourceTree = "<group>"; };
+		7F60B24B209DC1E2004C908D /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		7FE4B9E220A22CD200E2B1A3 /* GoliathBankProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathBankProtocols.swift; sourceTree = "<group>"; };
+		7FE4B9E420A22CE600E2B1A3 /* GoliathBankRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathBankRouter.swift; sourceTree = "<group>"; };
+		7FE4B9E620A22D5200E2B1A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FE4B9E820A2335500E2B1A3 /* GoliathBankPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathBankPresenter.swift; sourceTree = "<group>"; };
+		7FE4B9EA20A2475600E2B1A3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7FFC8761209DBD3D009707AA /* GoliathBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoliathBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC8764209DBD3D009707AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FFC8766209DBD3D009707AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FFC8769209DBD3D009707AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFC876B209DBD3F009707AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FFC876E209DBD3F009707AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFC8770209DBD3F009707AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFEDBCFC45DF32FACD16E60 /* Pods-GoliathBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathBank/Pods-GoliathBank.debug.xcconfig"; sourceTree = "<group>"; };
+		B0FB6877B3CB3B395A0E96B6 /* libPods-GoliathBank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoliathBank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFC875E209DBD3D009707AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E82D8095E1357F92B21EDC /* libPods-GoliathBank.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DA9AD900A18DB91EAA0CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0FB6877B3CB3B395A0E96B6 /* libPods-GoliathBank.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		786E8258E32B14FF76143AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EFEDBCFC45DF32FACD16E60 /* Pods-GoliathBank.debug.xcconfig */,
+				2806D9959847C63441E0073A /* Pods-GoliathBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F12546F209DDE7200E8AE33 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7F125472209DE2C200E8AE33 /* GBTableViewController.swift */,
+				7F125475209DE4A900E8AE33 /* GBTableViewCell.swift */,
+				7F125476209DE4A900E8AE33 /* GBTableViewCell.xib */,
+				7F12547D209E041300E8AE33 /* GBDetailTableViewCell.swift */,
+				7F12547E209E041300E8AE33 /* GBDetailTableViewCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		7FE4B9DA20A22C1B00E2B1A3 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9DD20A22C5600E2B1A3 /* test01 */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7FE4B9DB20A22C2800E2B1A3 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9E220A22CD200E2B1A3 /* GoliathBankProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		7FE4B9DC20A22C3B00E2B1A3 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9E420A22CE600E2B1A3 /* GoliathBankRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		7FE4B9DD20A22C5600E2B1A3 /* test01 */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9DB20A22C2800E2B1A3 /* protocols */,
+				7FE4B9DC20A22C3B00E2B1A3 /* router */,
+				7FE4B9DE20A22C6800E2B1A3 /* entity */,
+				7FE4B9DF20A22C7100E2B1A3 /* interactor */,
+				7FE4B9E020A22C8200E2B1A3 /* presenter */,
+				7FE4B9E120A22C8800E2B1A3 /* view */,
+				7F12546F209DDE7200E8AE33 /* TableView */,
+			);
+			path = test01;
+			sourceTree = "<group>";
+		};
+		7FE4B9DE20A22C6800E2B1A3 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7F12546D209DCED700E8AE33 /* GoliathBankModel.swift */,
+				7F125479209DEF3800E8AE33 /* GoliathBankModelRates.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		7FE4B9DF20A22C7100E2B1A3 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7F60B24B209DC1E2004C908D /* NetworkConnection.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		7FE4B9E020A22C8200E2B1A3 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9E820A2335500E2B1A3 /* GoliathBankPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		7FE4B9E120A22C8800E2B1A3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC8766209DBD3D009707AA /* ViewController.swift */,
+				7F12547B209DF2F100E8AE33 /* DetailViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7FFC8758209DBD3D009707AA = {
+			isa = PBXGroup;
+			children = (
+				7FFC8763209DBD3D009707AA /* GoliathBank */,
+				7FFC8762209DBD3D009707AA /* Products */,
+				786E8258E32B14FF76143AF9 /* Pods */,
+				06DA9AD900A18DB91EAA0CB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFC8762209DBD3D009707AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC8761209DBD3D009707AA /* GoliathBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFC8763209DBD3D009707AA /* GoliathBank */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B9DA20A22C1B00E2B1A3 /* modules */,
+				7FFC8764209DBD3D009707AA /* AppDelegate.swift */,
+				7FFC8768209DBD3D009707AA /* Main.storyboard */,
+				7FFC876B209DBD3F009707AA /* Assets.xcassets */,
+				7FFC876D209DBD3F009707AA /* LaunchScreen.storyboard */,
+				7FFC8770209DBD3F009707AA /* Info.plist */,
+				7FE4B9E620A22D5200E2B1A3 /* Constants.swift */,
+				7FE4B9EA20A2475600E2B1A3 /* Utils.swift */,
+			);
+			path = GoliathBank;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFC8760209DBD3D009707AA /* GoliathBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC8773209DBD3F009707AA /* Build configuration list for PBXNativeTarget "GoliathBank" */;
+			buildPhases = (
+				65B58380402D922D299F9086 /* [CP] Check Pods Manifest.lock */,
+				7FFC875D209DBD3D009707AA /* Sources */,
+				7FFC875E209DBD3D009707AA /* Frameworks */,
+				7FFC875F209DBD3D009707AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoliathBank;
+			productName = GoliathBank;
+			productReference = 7FFC8761209DBD3D009707AA /* GoliathBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFC8759209DBD3D009707AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jared Perez Vega";
+				TargetAttributes = {
+					7FFC8760209DBD3D009707AA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 7FFC875C209DBD3D009707AA /* Build configuration list for PBXProject "GoliathBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFC8758209DBD3D009707AA;
+			productRefGroup = 7FFC8762209DBD3D009707AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFC8760209DBD3D009707AA /* GoliathBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFC875F209DBD3D009707AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F125480209E041300E8AE33 /* GBDetailTableViewCell.xib in Resources */,
+				7F125478209DE4A900E8AE33 /* GBTableViewCell.xib in Resources */,
+				7FFC876F209DBD3F009707AA /* LaunchScreen.storyboard in Resources */,
+				7FFC876C209DBD3F009707AA /* Assets.xcassets in Resources */,
+				7FFC876A209DBD3D009707AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65B58380402D922D299F9086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFC875D209DBD3D009707AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F12547F209E041300E8AE33 /* GBDetailTableViewCell.swift in Sources */,
+				7FE4B9E920A2335500E2B1A3 /* GoliathBankPresenter.swift in Sources */,
+				7F125473209DE2C200E8AE33 /* GBTableViewController.swift in Sources */,
+				7FE4B9EB20A2475600E2B1A3 /* Utils.swift in Sources */,
+				7FFC8767209DBD3D009707AA /* ViewController.swift in Sources */,
+				7FFC8765209DBD3D009707AA /* AppDelegate.swift in Sources */,
+				7F12546E209DCED700E8AE33 /* GoliathBankModel.swift in Sources */,
+				7F125477209DE4A900E8AE33 /* GBTableViewCell.swift in Sources */,
+				7FE4B9E320A22CD200E2B1A3 /* GoliathBankProtocols.swift in Sources */,
+				7F60B24C209DC1E2004C908D /* NetworkConnection.swift in Sources */,
+				7F12547A209DEF3800E8AE33 /* GoliathBankModelRates.swift in Sources */,
+				7FE4B9E520A22CE600E2B1A3 /* GoliathBankRouter.swift in Sources */,
+				7F12547C209DF2F100E8AE33 /* DetailViewController.swift in Sources */,
+				7FE4B9E720A22D5200E2B1A3 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FFC8768209DBD3D009707AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC8769209DBD3D009707AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FFC876D209DBD3F009707AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC876E209DBD3F009707AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFC8771209DBD3F009707AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FFC8772209DBD3F009707AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFC8774209DBD3F009707AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFEDBCFC45DF32FACD16E60 /* Pods-GoliathBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AUK3F279;
+				INFOPLIST_FILE = GoliathBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpv.ulpgc.es.GoliathBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FFC8775209DBD3F009707AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2806D9959847C63441E0073A /* Pods-GoliathBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AUK3F279;
+				INFOPLIST_FILE = GoliathBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpv.ulpgc.es.GoliathBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFC875C209DBD3D009707AA /* Build configuration list for PBXProject "GoliathBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC8771209DBD3F009707AA /* Debug */,
+				7FFC8772209DBD3F009707AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC8773209DBD3F009707AA /* Build configuration list for PBXNativeTarget "GoliathBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC8774209DBD3F009707AA /* Debug */,
+				7FFC8775209DBD3F009707AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFC8759209DBD3D009707AA /* Project object */;
+}

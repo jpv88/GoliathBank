@@ -1,0 +1,6 @@
+module Pods_GoliathBank [system] {
+  umbrella header "Pods-GoliathBank-umbrella.h"
+
+  export *
+  module * { export * }
+}
